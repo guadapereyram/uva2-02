@@ -1,0 +1,188 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #24292f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #0366d6;
+    border-radius: 5px;
+  }
+  
+  /* Sección de presentación */
+  .presentacion {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .presentacion h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .presentacion p {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    font-size: 1.1rem;
+  }
+  
+  .img-gym {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-registrar {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-registrar:hover {
+    background-color: #218838;
+  }
+  
+  /* Formulario */
+  #formulario {
+    background-color: white;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  #formulario h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form input:focus,
+  form select:focus {
+    outline: none;
+    border-color: #28a745;
+  }
+  
+  /* Fieldset para horarios */
+  .horarios {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .horarios legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .horarios label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  /* Botón de envío */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #24292f;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .footer-info p {
+    margin-bottom: 8px;
+  }
+  
+  .redes {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icono-red {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .icono-red:hover {
+    transform: scale(1.1);
+  }
+  
